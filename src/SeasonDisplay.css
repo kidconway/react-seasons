@@ -1,0 +1,35 @@
+.icon-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.icon-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.winter {
+  background-image: url("https://s.abcnews.com/images/Health/GTY_Blizzard_MEM_160121_16x9_992.jpg");
+  background-size: cover;
+}
+
+.summer {
+  background-image: url("https://edmdigest.com/wp-content/uploads/sites/10/2019/07/960x0-heatwave.jpg");
+  background-size: cover;
+}
+
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.season-display.winter i {
+  color: blue;
+}
+.season-display.summer i {
+  color: red;
+}
